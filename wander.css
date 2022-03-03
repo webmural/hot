@@ -4,17 +4,20 @@
 }
 
 :root {
-  background: silver;
-  color: #212;
+  background: deeppink;
+  color: #111;
 }
 
 :any-link {
-  color: indigo;
+  color: #fdfd00;
 }
 
 @media (prefers-contrast: more) {
   :root {
-    background: gainsboro;
-    color: #201;
+    background: hotpink;
+  }
+
+  :any-link {
+    background: mediumvioletred;
   }
 }
