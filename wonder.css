@@ -4,8 +4,8 @@
 }
 
 :root {
-  background: #212;
-  color: silver;
+  background: #111;
+  color: hotpink;
 }
 
 :any-link {
@@ -14,7 +14,7 @@
 
 @media (prefers-contrast: more) {
   :root {
-    background: #201;
-    color: gainsboro;
+    background: #111;
+    color: mistyrose;
   }
 }
